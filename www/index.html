@@ -24,46 +24,179 @@
   <body ng-app="calorific">
 
     <ion-pane>
-      <ion-header-bar class="bar-stable">
+      <ion-header-bar class="bar-energized">
         <h1 class="title">Calorific</h1>
       </ion-header-bar>
       <ion-content>
+ <div class="list list-inset">
+          <label class="item item-input">
+            <input type="number" ng-model="count" />
+          </label>
+          <button class="button button-block button-assertive" ng-click="count = 0">
+            Reset
+          </button>
+
 	<div class="list card">
-
+<div class = "list card">
+ <div class="item item-avatar">
+    <img src="img/rice.jpg">
+    <h2>Rice</h2>
+    <p>Average of 262 calories per 75g portion of rice</p>
+  </div>
+<button class="button button-block button-calm" ng-click="count = count + 262">
+            Count
+          </button>
+</div>
+<div class = "list card">
+ <div class="item item-avatar">
+    <img src="img/pasta.jpg">
+    <h2>Pasta</h2>
+    <p>Average of 352 calories per 100g  portion of pasta</p>
+  </div>
+<button class="button button-block button-calm" ng-click="count = count + 352">
+            Count
+          </button>
+</div>
+<div class = "list card">
   <div class="item item-avatar">
-    <img src="http://ionicframework.com/img/docs/mcfly.jpg">
-    <h2>Marty McFly</h2>
-    <p>November 05, 1955</p>
+    <img src="img/potatoes.jpg">
+    <h2>Potatoes</h2>
+    <p>Average of 110 calories per medium sized potato</p>
   </div>
-
-  <div class="item item-body">
-    <img class="full-image" src="http://ionicframework.com/img/docs/delorean.jpg">
-   <p>
-      This is a "Facebook" styled Card. The header is created from a Thumbnail List item,
-      the content is from a card-body consisting of an image and paragraph text. The footer
-      consists of tabs, icons aligned left, within the card-footer.
-    </p>
-    <p>
-      <a href="#" class="subdued">1 Like</a>
-      <a href="#" class="subdued">5 Comments</a>
-    </p>
+<button class="button button-block button-calm" ng-click="count = count + 110">
+            Count
+          </button>
+</div>
+<div class = "list card">
+    <div class="item item-avatar">
+    <img src="img/carrots.jpg">
+    <h2>Carrots</h2>
+    <p>Average of 41 calories per 100g portion of carrots</p>
   </div>
-
-  <div class="item tabs tabs-secondary tabs-icon-left">
-    <a class="tab-item" href="#">
-      <i class="icon ion-thumbsup"></i>
-      Like
-    </a>
-    <a class="tab-item" href="#">
-      <i class="icon ion-chatbox"></i>
-      Comment
-    </a>
-    <a class="tab-item" href="#">
-      <i class="icon ion-share"></i>
-      Share
-    </a>
+<button class="button button-block button-calm" ng-click="count = count + 41">
+            Count
+          </button>
+</div>
+<div class = "list card">
+  <div class="item item-avatar">
+    <img src="img/cabbage.jpg">
+    <h2>Cabbage</h2>
+    <p>Average of 21 calories per 100g portion of cabbage</p>
   </div>
-
+<button class="button button-block button-calm" ng-click="count = count + 21">
+            Count
+          </button>
+</div>
+<div class = "list card">
+  <div class="item item-avatar">
+    <img src="img/mushrooms.jpg">
+    <h2>Mushrooms</h2>
+    <p>Average of 4 calories per 100g  portion of mushrooms</p>
+  </div>
+<button class="button button-block button-calm" ng-click="count = count + 4">
+            Count
+          </button>
+</div>
+<div class = "list card">
+  <div class="item item-avatar">
+    <img src="img/onions.jpg">
+    <h2>Onions</h2>
+    <p>Average of 55 calories per 180g portion of onions</p>
+  </div>
+<button class="button button-block button-calm" ng-click="count = count + 55">
+            Count
+          </button>
+</div>
+<div class = "list card">
+ <div class="item item-avatar">
+    <img src="img/Peppers.jpg">
+    <h2>Peppers</h2>
+    <p>Average of 45 calories per 100g portion of peppers</p>
+  </div>
+<button class="button button-block button-calm" ng-click="count = count + 45">
+            Count
+          </button>
+</div>
+<div class = "list card">
+ <div class="item item-avatar">
+    <img src="img/tomatoes.jpg">
+    <h2>Tomatoes</h2>
+    <p>Average of 12 calories per medium sized  tomato</p>
+  </div>
+<button class="button button-block button-calm" ng-click="count = count + 12">
+            Count
+          </button>
+</div>
+<div class = "list card">
+ <div class="item item-avatar">
+    <img src="img/lettuce.jpg">
+    <h2>Lettuce</h2>
+    <p>Average of 7 calories per 50g portion of lettuce</p>
+  </div>
+<button class="button button-block button-calm" ng-click="count = count + 7">
+            Count
+          </button>
+</div>
+<div class = "list card">
+ <div class="item item-avatar">
+    <img src="img/beef.jpg">
+    <h2>Beef</h2>
+    <p>Average of 313 calories per 100g portion of beef</p>
+  </div>
+<button class="button button-block button-calm" ng-click="count = count + 313">
+            Count
+          </button>
+</div>
+<div class = "list card">
+ <div class="item item-avatar">
+    <img src="img/chicken.jpg">
+    <h2>Chicken</h2>
+    <p>Average of 171 calories per 100g portion of chicken</p>
+  </div>
+<button class="button button-block button-calm" ng-click="count = count + 171">
+            Count
+          </button>
+</div>
+<div class = "list card">
+ <div class="item item-avatar">
+    <img src="img/bacon.jpg">
+    <h2>Bacon</h2>
+    <p>Average of 303 calories per 100g portion of bacon</p>
+  </div>
+<button class="button button-block button-calm" ng-click="count = count + 303">
+            Count
+          </button>
+</div>
+<div class = "list card">
+ <div class="item item-avatar">
+    <img src="img/lamb.jpg">
+    <h2>Lamb</h2>
+    <p>Average of 246 calories per 100g portion of lamb</p>
+  </div>
+<button class="button button-block button-calm" ng-click="count = count + 246">
+            Count
+          </button>
+</div>
+<div class = "list card">
+ <div class="item item-avatar">
+    <img src="img/pork.jpg">
+    <h2>Pork</h2>
+    <p>Average of 225 calories per 100g portion of pork</p>
+  </div>
+<button class="button button-block button-calm" ng-click="count = count + 225">
+            Count
+          </button>
+</div>
+<div class = "list card">
+ <div class="item item-avatar">
+    <img src="img/fish.jpg">
+    <h2>Fish</h2>
+    <p>Average of 125 calories per 100g portion of fish</p>
+  </div>
+<button class="button button-block button-calm" ng-click="count = count + 125">
+            Count
+          </button>
+</div>
 </div>
       </ion-content>
     </ion-pane>
